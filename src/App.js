@@ -1,23 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import { TestButton } from "../src/Components/Button/TestButton";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Tutorial for Unit Testing in React.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <TestButton label={"Click Me!"}/>
       </header>
     </div>
   );
